@@ -1,0 +1,865 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    max-height: 100%;
+    font-family:Sans-serif;
+    line-height: 1.5em;
+}
+main {
+    position: fixed;
+    top: 50px; /* Set this to the height of the header */
+    bottom: 50px; /* Set this to the height of the footer */
+    left: 230px;
+    right: 0;
+    overflow: auto;
+    background: #fff;
+}
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+    background: #1B365D;
+    font-weight: bold;
+}
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    overflow: hidden; /* Disables scrollbars on the footer frame. To enable scrollbars, change "hidden" to "scroll" */
+    background: #1B365D;
+}
+#nav {
+    position: relative;
+    top: 50px; /* Set this to the height of the header */
+    bottom: 50px; /* Set this to the height of the footer */
+    left: 0;
+    height: 100%;
+    width: 350px;
+    overflow: hidden; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+    background: #17457A;
+}
+.innertube {
+    color: black;
+    margin: 15px; /* Provides padding for the content */
+}
+
+.innertube h1{
+    color:white
+}
+p {
+    font-size: 17px;
+    color: black;
+}
+nav ul {
+    list-style-type: square;
+    font-size: 18px;
+    color: white;
+    margin: 12px;
+    padding: 0;
+}
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+/*IE6 fix*/
+* html body{
+    padding: 50px 0 50px 230px; /* Set the first value to the height of the header, the third value to the height of the footer, and last value to the width of the nav */
+}
+* html main{
+    height: 100%;
+    width: 100%;
+}
+.title h1 {
+    color:black;
+}
+#websitetitle {
+    font-size: 17px;
+    color: white;
+}
+#maintitle{
+    font-size: 12px;
+    color: white;
+    display: inline-block;
+}
+#leftfooter {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 50px;
+    width: 200px;
+    float: left;
+}
+#rightfooter {
+    color: white;
+    font-weight: bold;
+    margin-left: 90%;
+    text-align: center;
+    font-size: 12px;
+    line-height: 50px;
+}
+.cardboxmain{
+    width: 19.5%;
+    height:16em;
+    display: inline-block;
+    margin: 0.5em 0 0 0.3em;
+}
+#space{
+    height:5em;
+}
+
+
+.card-block p{
+    font-size: 10px;
+    padding: 4px;
+}
+.card-block h6{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 1em 0 0 8px;
+}
+.contentmain{
+    display: inline-block;
+    height: 16em;
+}
+#bodymid{
+    height: 17.5%;
+    width:100%;
+     /*margin-top: 0em; 26.5em */
+}
+#bodytop{
+    margin: 0 0 0 7.5em;
+    height: 100%;
+    overflow: hidden;
+}
+#space {
+    height:11.3em;
+}
+
+#tmatitle{ /* margin-left: 30.5%; */
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left:37%;
+
+}
+#maincard { /* top info card*/
+    margin: 0 0 0 0.5em;
+    padding-top: 1em;
+    max-width: 99%;
+    height: 98%;
+}
+.innertube h6{
+    color: white;
+}
+.innertube li{
+    font-size: 12px;
+    color: white;
+}
+
+
+
+
+/* login form style start */
+
+/* BASIC */
+
+html {
+    background-color: #56baed;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    height: 100vh;
+}
+
+a {
+    color: #92badd;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    display:inline-block;
+    margin: 40px 8px 10px 8px;
+    color: #cccccc;
+}
+
+
+
+/* STRUCTURE */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height:20em;
+    padding: 20px;
+}
+
+#formContentLogin {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+
+}
+
+#bottomcontrol {
+    -webkit-tap-highlight-color: transparent;
+    margin:  1em 0 0 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: left;
+    color: black;
+    box-sizing: border-box;
+    display: inline;
+    align-items: center;
+    width: 100%;
+    height: 39.5em;
+}
+
+
+
+.formFooter {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 15px;
+
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* TABS */
+
+h2.inactive {
+    color: #cccccc;
+}
+
+h2.active {
+    color: #0d0d0d;
+    border-bottom: 2px solid #5fbae9;
+}
+
+
+
+/* FORM TYPOGRAPHY*/
+
+input[type=button], input[type=submit], input[type=reset]  {
+    background-color: #56baed;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+}
+
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover  {
+    background-color: #39ace7;
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active  {
+    -moz-transform: scale(0.95);
+    -webkit-transform: scale(0.95);
+    -o-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
+
+input[type=text] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+input[type=text]:focus {
+    background-color: #fff;
+    border-bottom: 2px solid #5fbae9;
+}
+
+input[type=text]::placeholder {
+    color: #cccccc;
+}
+/* ANIMATIONS */
+
+/* Simple CSS3 Fade-in-down Animation */
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+
+/* Simple CSS3 Fade-in Animation */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fadeIn {
+    opacity:0;
+    -webkit-animation:fadeIn ease-in 1;
+    -moz-animation:fadeIn ease-in 1;
+    animation:fadeIn ease-in 1;
+
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+
+    -webkit-animation-duration:1s;
+    -moz-animation-duration:1s;
+    animation-duration:1s;
+}
+
+.fadeIn.first {
+    -webkit-animation-delay: 0.4s;
+    -moz-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+}
+
+.fadeIn.second {
+    -webkit-animation-delay: 0.6s;
+    -moz-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+}
+
+.fadeIn.third {
+    -webkit-animation-delay: 0.8s;
+    -moz-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+}
+
+.fadeIn.fourth {
+    -webkit-animation-delay: 1s;
+    -moz-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+/* Simple CSS3 Fade-in Animation */
+.underlineHover:after {
+    display: block;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #56baed;
+    content: "";
+    transition: width 0.2s;
+}
+
+.underlineHover:hover {
+    color: #0d0d0d;
+}
+
+.underlineHover:hover:after{
+    width: 100%;
+}
+
+/* OTHERS */
+
+*:focus {
+    outline: none;
+}
+
+#icon {
+    width:60%;
+}
+/* login form style end */
+#maincardbody{
+    height:18%;
+    padding: 1em 1em 0 1em;
+    flex: 0 0 auto;
+}
+
+#articles li {
+    color:black;
+    font-size: 15px;
+    margin-bottom: 5%;
+}
+#pwd {
+    margin-left: 5%;
+    max-width:90%;
+}
+#pwd2 {
+    margin-left: 5%;
+    max-width:90%;
+}
+#usr {
+    margin-left: 5%;
+    width:90%;
+    text-align: left;
+    padding:10px;
+    transition-timing-function: revert;
+    transition-duration: revert;
+    -webkit-tap-highlight-color: revert;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background: white;
+}
+.pwdlab {
+    margin-left: 5%;
+    max-width:90%;
+    font-weight:bold;
+}
+#email {
+    margin-left: 5%;
+    width:90%;
+    text-align: left;
+    padding:10px;
+    transition-timing-function: revert;
+    transition-duration: revert;
+    -webkit-tap-highlight-color: revert;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background: white;
+}
+#email2 {
+    margin-left: 5%;
+    width:90%;
+    text-align: left;
+    padding:10px;
+    transition-timing-function: revert;
+    transition-duration: revert;
+    -webkit-tap-highlight-color: revert;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    background: white;
+}
+.navbutton {
+    margin: 0 0 0 5%;
+    height: 5%;
+    width:90%;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    overflow: visible;
+    background-color: #56baed;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    box-shadow: 0 10px 30px 0 rgba(95,186,233,0.4);
+    border-radius: 5px 5px 5px 5px;
+    cursor: pointer;
+}
+#backbutton {
+    background: dimgray;
+    margin: 5% 0 0 5%;
+    height: 5%;
+    width:90%;
+    padding: 0 0 0 0;
+}
+#loginbutton {
+    margin: 1% 7% 3% 7%;
+    height: 4em;
+    width:85%;
+    padding: 0 0 0 0;
+}
+.logininput {
+    margin: 0% 7% 0% 7%;
+    height: 4em;
+    width:85%;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    overflow: visible;
+    background-color: #f6f6f6;
+    color: #0d0d0d;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid #f6f6f6;
+    border-radius: 5px 5px 5px 5px;
+}
+#login {
+    margin: 4% 7% 1% 7%;
+    height: 4em;
+    width: 85%;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    overflow: visible;
+    background-color: #f6f6f6;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid #f6f6f6;
+    border-radius: 5px 5px 5px 5px;
+}
+#password{
+    margin-top: 0px;
+}
+
+#bottomcardbody{
+    height:100%;
+    width: 100%;
+    overflow: auto;
+    padding: 0 0.5em 0 0.5em;
+
+}
+#bottomcard { /* top info card*/
+    margin: 0.5em 0 0.5em 0.5em;
+    max-width: 99%;
+    height: 80%;
+    flex: unset;
+    -webkit-box-flex: 0;
+
+}
+
+/* start table style */
+.well {
+    background: none;
+}
+#myTable {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: left;
+    font-weight: 400;
+    -webkit-box-direction: normal;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    color: #212529;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+
+
+.bg-success {
+    background-color: #56baed !important;
+}
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+button.bg-success:focus {
+    background-color: #56baed !important;
+}
+
+.tablecontainer {
+    width: 100%;
+}
+
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+    background-color: #CFF5FF;
+}
+
+#controltitle {
+    padding-top: 1em;
+}
+
+/* start controls disabled/enabled style */
+#newbookmark:disabled {background-color: #EAEAEA;}
+#newbookmark:enabled {background-color: #56baed;}
+
+#editselection:disabled {background-color: #EAEAEA;}
+#editselection:enabled {background-color: #56baed;}
+
+#removeselected:disabled {background-color: #EAEAEA;}
+#removeselected:enabled {background-color: #56baed;}
+
+#control1:disabled {background-color: #EAEAEA;}
+#control2:disabled {background-color: #EAEAEA;}
+#control3:disabled {background-color: #EAEAEA;}
+/* end controls disabled/enabled style */
+
+#spacer {
+    height:2em;
+}
+
+/* end table style */
+
+#bookmarksearch {
+    margin: 1% 7% 3% 7%;
+    height: 4em;
+    width:85%;
+    padding: 0 0 0 0;
+    box-sizing: border-box;
+    font-family: inherit;
+    line-height: inherit;
+    overflow: visible;
+    background-color: white;
+    color: #0d0d0d;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: 2px solid #f6f6f6;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.innertubeloggedin {
+    color: black;
+    margin: 15px; /* Provides padding for the content */
+    height: 100%;
+}
+
+#formContent2 { /* bottom of left nav bar height:39em; */
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    width: 100%;
+    margin-top: 0.3em;
+    height:56%;
+}
+
+#editselectedbutton {
+    margin: 8% 7% 0% 7%;
+    height: 4em;
+    width:85%;
+    padding: 0 0 0 0;
+    background-color: #0099ff;
+}
+#clearbutton {
+    margin: 4% 7% 0% 7%;
+    height: 4em;
+    width:85%;
+    padding: 0 0 0 0;
+}
+#removebutton {
+    margin: 4% 7% 8% 7%;
+    height: 4em;
+    width:85%;
+    background: dimgray;
+    padding: 0 0 0 0;
+}
+
+#currentmode {
+
+    margin: 1em auto 0 auto;
+}
+tr th {
+font-weight: bold;
+}
+
+.form-control:disabled {
+    background: #eaeaea;
+}
+.form-control:not(disabled) {
+    background: white;
+}
+
+/* end view/create bookmark style */
+
+.mostpopular{ /* margin-left:36%; */
+    text-align: center;
+    color:black;
+    padding-top: 10px;
+    font-weight:bold;
+    margin: 1em 0 0 0;
+}
+
+#pwd2 {
+    margin-left: 5%;
+    max-width:90%;
+}
+
+#createbutton {
+    height: 4em;
+    margin-bottom: 2em;
+}
+
+.pwdlab {
+    margin-left: 5%;
+    max-width: 90%;
+    font-weight: bold;
+}
+#bookmarkurl {
+    margin-left: 5%;
+    width:90%;
+    text-align: left;
+    transition-timing-function: revert;
+    transition-duration: revert;
+    -webkit-tap-highlight-color: revert;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+#sitename {
+    margin-left: 5%;
+    width:90%;
+    text-align: left;
+    transition-timing-function: revert;
+    transition-duration: revert;
+    -webkit-tap-highlight-color: revert;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+#bookmarkcat {
+    margin-left: 5%;
+    width:90%;
+    text-align: left;
+    transition-timing-function: revert;
+    transition-duration: revert;
+    -webkit-tap-highlight-color: revert;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+#control1 {
+    margin: 1% 5% 3% 7%;
+    height: 4em;
+    width:85%;
+    padding: 0 0 0 0;
+}
+#control2 {
+    margin: 2% 5% 3% 7%;
+    height: 4em;
+    width:85%;
+    padding: 0 0 0 0;
+}
+#control3 {
+    position: relative;
+    margin: 2% 5% 10% 7%;
+    height: 4em;
+    width:85%;
+}
+#buttonbottom{
+    height: 10em;
+    margin-bottom: 10%;
+}
+
+#formContentControls {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background: #fff;
+    padding: 0px;
+    height: 98%;
+    width: 113%;
+    max-width: 450px;
+    position: relative;
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 30px 60px 0 rgba(0,0,0,0.3);
+    text-align: center;
+}
+#wrapperControls {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height:21em;
+    padding: 0 20px 0 20px;
+}
+#logintext {
+    font-weight: bold;
+    color: black;
+    height: 2em;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#authuser {
+    font-weight: bold;
+}
+#formFooterControls {
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 0 15px 10px;
+}
+#refreshbutton {
+    margin-top: 2em;
+    height: 4em;
+}
+
+#newbookmark {
+    margin: 5% 7% 3% 7%;
+    height: 4em;
+    width:85%;
+    padding: 0 0 0 0;
+}
+#editselection {
+    margin: 2% 7% 3% 7%;
+    height: 4em;
+    width:85%;
+    padding: 0 0 0 0;
+}
+#removeselected {
+    position: relative;
+    margin: 2% 7% 5% 7%;
+    height: 4em;
+    width:85%;
+}

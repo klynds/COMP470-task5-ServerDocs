@@ -1,0 +1,357 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    max-height: 100%;
+    font-family:Sans-serif;
+    line-height: 1.5em;
+}
+main {
+    position: fixed;
+    top: 50px; /* Set this to the height of the header */
+    bottom: 50px; /* Set this to the height of the footer */
+    left: 230px;
+    right: 0;
+    overflow: hidden;
+    background: #fff;
+}
+#header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+    background: #1B365D;
+    font-weight: bold;
+}
+
+#headerbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    overflow: hidden; /* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+    background: #1B365D;
+    font-weight: bold;
+}
+.websitetitle {
+    font-size: 17px;
+    color: white;
+    text-decoration: underline;
+    display: inline-block;
+}
+#footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    overflow: hidden; /* Disables scrollbars on the footer frame. To enable scrollbars, change "hidden" to "scroll" */
+    background: #1B365D;
+}
+#nav {
+    position: absolute;
+    top: 50px; /* Set this to the height of the header */
+    bottom: 50px; /* Set this to the height of the footer */
+    left: 0;
+    width: 230px;
+    overflow: auto; /* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+    background: #17457A;
+}
+.innertubetop {
+    color: black;
+    margin: 15px; /* Provides padding for the content */
+    width: 100%;
+    overflow: hidden;
+}
+.innertube {
+    color: black;
+    margin: 15px; /* Provides padding for the content */
+
+}
+.innertube h1{
+    color:white
+}
+p {
+    font-size: 17px;
+    color: black;
+}
+nav ul {
+    list-style-type: square;
+    font-size: 18px;
+    color: white;
+    margin: 12px;
+    padding: 0;
+}
+nav ul a {
+    color: white;
+    text-decoration: none;
+}
+/*IE6 fix*/
+* html body{
+    padding: 50px 0 50px 230px; /* Set the first value to the height of the header, the third value to the height of the footer, and last value to the width of the nav */
+}
+* html main{
+    height: 100%;
+    width: 100%;
+}
+.title h1 {
+    color:black;
+}
+#maintitle{
+    font-size: 12px;
+    color: white;
+    display: inline-block;
+
+}
+#leftfooter {
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    line-height: 50px;
+    width: 500px;
+    margin-left: 20px;
+    float: left;
+}
+
+#rightfooter {
+    color: white;
+    font-weight: bold;
+    margin-left: 88%;
+    text-align: center;
+    line-height: 50px;
+}
+#measurecard {
+    margin-top: 1em;
+    max-width: 40em;
+}
+#measurecard2 {
+    margin-top: 1em;
+    max-width: 60em;
+}
+#units{
+    max-width: 6em;
+}
+#buttonbox {
+    width: 100%;
+}
+#dropdownbox{
+    width: 7em;
+}
+#weightinput {
+}
+#outputbox{
+    margin-top: 1em;
+}
+#outputg{
+    width: 6em;
+}
+#outputkg{
+    width: 6em;
+}
+#outputtonne{
+    width: 6em;
+}
+#outputoz{
+    width: 6em;
+}
+#outputlb{
+    width: 6em;
+}
+#outputton{
+    width: 6em;
+}
+#weightconverter{
+    border: #0f0f0f;
+    max-width: 100%;
+
+}
+#tooltitle{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1em;
+}
+.unittab{
+    -webkit-tap-highlight-color: transparent;
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --breakpoint-xs: 0;
+    --breakpoint-sm: 576px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 992px;
+    --breakpoint-xl: 1200px;
+    --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+    font-family: Sans-serif;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 0 .25rem .25rem 0;
+    width: 7em;
+}
+#tooltitle2{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+#mortgagecard {
+    margin-top: 1em;
+    max-width: 40em;
+    height: 32em;
+}
+#mortgagecard2 {
+    margin-top: 1em;
+    max-width: 60em;
+    height: 27em;
+}
+#calculate {
+    display: inline-block;
+    margin-top: 8px;
+}
+#totalbox {
+    margin-left: 5em;
+    margin-top: 5px;
+    display: inline-block;
+    width: 22.5em;
+    resize: none;
+}
+.finalcontainer{
+    display: flex;
+}
+.fixed{
+    width: 120px;
+}
+.flex-item{
+    flex-grow: 1;
+}
+.cardboxmain{
+    width: 47%;
+    height:100%;
+    display: inline-block;
+    /* 6.5% min-height:30%; */
+    margin: auto 1% 17.5% 1%;
+}
+
+#maincard {
+    margin: 0.5em 0.65em 0.5em 0.5em;
+    width:99.2%;
+    height: auto;
+}
+
+#card1{
+    margin-left:2%;
+}
+
+.card-block {
+    height:auto; /* 700px; */
+    min-height:450px;
+}
+
+.card-block p{
+    font-size: 10px;
+    padding: 4px;
+    height:auto; /* 530px */
+
+}
+.card-block h6{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 1em 0 0 4px;
+}
+
+.card-text {
+    white-space: pre-line;
+    height:auto; /* 550px; */
+    min-height:450px;
+}
+
+.cardimage {
+    cursor: pointer;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    font-family: Sans-serif;
+    line-height: 1.5em;
+    font-weight: 400;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border-style: none;
+    flex-shrink: 0;
+    width: 100%; /* 784px; */
+    height:230px;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+#contentmain{
+    padding: 0 4px 4px 4px;
+    overflow: hidden;
+    height:auto;
+}
+#bodytop{
+    height: 100%; /* 20.5% */
+    width:100%;
+    display: inline;
+}
+#tmatitle{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 28%;
+}
+#maincardbody {
+    color: #212529;
+    text-align: left;
+    font-family: Sans-serif;
+    line-height: 1.5em;
+    font-weight: 400;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.5rem 2.5rem 0 2.5rem;
+    margin-right: 40px;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.innertube h6{
+    color: white;
+}
+.innertube li{
+    font-size: 12px;
+    color: white;
+}
+

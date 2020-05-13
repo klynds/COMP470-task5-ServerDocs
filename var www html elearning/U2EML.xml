@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<Unit>
+    <Intro>
+        Unit 2 will review your existing knowledge of JavaScript programming and will review the JavaScript components must important for the creation of web applications with client-side processing. To return to the main eLearning portal you can click the COMP 466 eLearning link in the top left corner.
+    </Intro>
+    <Part>
+        <Lesson>
+            <Info>
+                1-1 Javascript Variables and the 'var' Keyword: In JavaScript variables can be declared in a number of different ways depending on their intended purpose. All variables must be provide a unique case-sensitive name within their scope, (eg. var y would differ from var Y). Variables declared using the var keyword will be scoped to their immediate function body, (also known as function scope). Unlike many other common programming languages JavaScript does not define different types to store various numerical values. Instead all numbers in JavaScript are stored as double precision floating point numbers, (as dictated by the IEEE 754 standard).
+            </Info>
+            <Markup>
+                "../shared/img/u2p1varex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+                1-2 'let' Keyword: Variables declared using the let keyword will be scoped to their enclosing block as denoted by the curly braces that surround their declaration, (known as block scope).
+            </Info>
+            <Markup>
+                "../shared/img/u2p1letex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+                1-3 'const' Keyword: One additional way to declare variables is through the const keyword which operates exactly like a variable declared with let but cannot be reassigned once initialized. 
+            </Info>
+            <Markup>
+                "../shared/img/u2p1constex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>     
+    </Part>        
+
+    <Part>
+        <Lesson>
+            <Info>
+               2-1 Javascript Functions and Declaration Syntax: Javascript functions are declared are declared using the 'function' keyword followed by the function name and expected parameters that the function will receive. JavaScript functions may conclude with a return keyword which can return a constant value, a variable, a calculation, or will return the JavaScript 'undefined' value in the case of this keyword being explicitly being provided to the return statement or the return statement being provided alone. If the function is not explicitly provided with a return statement (eg. void function) the JavaScript engine will implicitly add an undefined return as the statement is required to termination the line of execution.
+            </Info>
+            <Markup>
+                "../shared/img/u2p2funcex.png"
+            </Markup>
+            <Example>
+                
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+               2-2 JavaScript Functions and HTML Elements: Javascript functions can be used to make client side alterations to a websites elements in a variety of different ways. The most common ways to reference an element is through making a reference to its: id, tag, class, or other CSS selector. Below are several examples of references being made to HTML elements such that further JavaScript code can altered its attributes.
+            </Info>
+            <Markup>
+                "../shared/img/u2p2refex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+                2-3 JavaScript Control Statements (conditionals): Javascript code allows programmers to create web applications with far more complex functionality than HTML markup alone would enable. One core component of any programming language are its control statements which define how the path of execution progresses. The primary control statements used in JavaScript are the if/else/else if statements, the switch statement, and the various loop controls of which the for loop, and while/dowhile are the most commonly used. Below are the basic syntax of these operators and the specific functionality that they each enable
+            </Info>
+            <Markup>
+                "../shared/img/u2p2ifex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>     
+    </Part>      
+        
+    <Part>
+        <Lesson>
+            <Info>
+                3-1 Javascript Loop Statements: (for) Another important component for any programming language is looping operators. JavaScript has several different types of loops that are useful in the creation of web applications however the for loop and while/do while loop are the most common. The usage and syntax of the for loop statements will be described below. 
+            </Info>
+            <Markup>
+                "../shared/img/u2p3forex.png"
+            </Markup>
+            <Example>
+                
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+                3-2 Javascript Loop Statements: (while) A while loop can be used to execute a block continually until some conditional is no longer valid. The usage and syntax of the while loop statement is described below.
+            </Info>
+            <Markup>
+                "../shared/img/u2p3whileex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+                3-3 Javascript Loop Statements: (do/while): For instances where the functionality of a while loop is required but execution at least one single time must be ensured the do/while loop can be implemented. The usage and syntax of the do/while loop statement is described below.
+            </Info>
+            <Markup>
+                "../shared/img/u2p3dowhileex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>     
+    </Part>
+</Unit>

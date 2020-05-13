@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Unit>
+    <Intro>
+       Unit 1 will review your previous knowledge of HTML5 markup and will focus primarily on the syntax and usage of common tags and CSS style sheet usage. Once you have fully reviewed the concepts on each page you can move to the next using the navigation buttons on the left toolbar. Once you are finished with the quiz you can return to the main eLearning portal by clicking the COMP 466 eLearning link in the top left corner. 
+    </Intro>
+    <Part>
+        <Lesson>
+            <Info>
+                1-1 Forms: The form tag is used to define a region of markup that is used to gather input from the user and will contains a series of input tags whose input can be passed off to the server or processed via client-side scripting.
+            </Info>
+            <Markup>
+                "../shared/img/u1p1formex.png"
+            </Markup>
+            <Example>
+                "../shared/img/u1p1formres.png"
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+                1-2 Input: The input tag is used to define a region of markup within the body of a form where a user can enter information in a variety of different formats as specified by the elements type attribute.
+            </Info>
+            <Markup>
+                "../shared/img/u1p1inputex.png"
+            </Markup>
+            <Example>
+                "../shared/img/u1p1inputres.png"
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+                1.3 Label: The Label tag is used to define a region of text to describe another element as specified by its for attribute within the context of a form as specified by its form attribute. The label as serves to declare a portion of text that can be announced by screen-reader users and can be used to toggle an element that it is attached to in the case of a radio-button or check-box element. 
+            </Info>
+            <Markup>
+                "../shared/img/u1p1labelex.png"
+            </Markup>
+            <Example>
+                "../shared/img/u1p1labelres.png"
+            </Example>
+        </Lesson>     
+    </Part>        
+    <Part>
+        <Lesson>
+            <Info>
+                2.1 Div: The div tag is used to define an individual section within an HTML document. This element is used as a container to organize the display of other HTML elements and can serve as a selector for further styling contents according to a provided CSS style sheet.
+            </Info>
+            <Markup>
+                "../shared/img/u1p2divex.png"
+            </Markup>
+            <Example>
+                "../shared/img/u1p2divres.png"
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+                2.2 Span: The span element is used to group a set of inline elements within an HTML document. This element can be further used as a selector to style its contents using CSS or through JavaScript code.
+            </Info>
+            <Markup>
+                "../shared/img/u1p2spanex.png"
+            </Markup>
+            <Example>
+                "../shared/img/u1p2spanres.png"
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+                2.3 Inline Frame: The iframe element is used as a container to specify an inline frame which contains another distinct HTML document. This element can be styled with CSS to support readability of the contained document such as adding a scroll bar to this container or allowing the container to be resized. 
+            </Info>
+            <Markup>
+                "../shared/img/u1p2iframeex.png"
+            </Markup>
+            <Example>
+                "../shared/img/u1p2iframeres.png"
+            </Example>
+        </Lesson>     
+    </Part>      
+    <Part>
+        <Lesson>
+            <Info>
+                3.1 Inline Styles: The style tag is used to specify CSS styles within the body of an HTML document. While it is typically advised to externally define CSS style sheets they can also be define using this tag for less complex websites or smaller website regions.
+            </Info>
+            <Markup>
+                "../shared/img/u1p3styleex.png"
+            </Markup>
+            <Example>
+                "../shared/img/u1p3styleres.png"
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+                3.2 ID Attribute (Selector): The id attribute is a global HTML attribute (eg. can be used on any HTML element) that is used to identify a given element so that it can be manipulated by other web design technologies such as CSS, JavaScript, PHP, etc. Any id assigned to an element must be unique to the document on which it is assigned, (as opposed to the class attribute which can be used to select a series of elements). 
+            </Info>
+            <Markup>
+                "../shared/img/u1p3idex.png"
+            </Markup>
+            <Example>
+                "../shared/img/u1p3idres.png"
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+                3.3 Class Attribute (Selector): The class attribute is a global HTML attribute (eg. can be used on any HTML element) that is used to identify a given element so that it can be manipulated by other web design technologies such as CSS, JavaScript, PHP, etc. Any class assigned to an element does not have to be unique to a document and thus can be used to select a series of elements through sharing the same value for this attribute, (as opposed to the id attribute which must be unique within the document).
+            </Info>
+            <Markup>
+                "../shared/img/u1p3classex.png"
+            </Markup>
+            <Example>
+                "../shared/img/u1p3styleres.png"
+            </Example>
+        </Lesson>     
+    </Part>
+</Unit>

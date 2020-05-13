@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Unit>
+    <Intro>
+        Unit 3 will review the usage of XML documents (used for the cross platform communication of raw data), XLS Style Document (used to format this raw data and apply styles to create a readable document), and XSD documents, (which are used to  define acceptable type values and tag contents to ensure effective communication between different systems). 
+    </Intro>
+    <Part>
+        <Lesson>
+            <Info>
+                1-1 XML Markup: XML (which stands for eXtensible Markup Language) is a markup language much like HTML that is used to store and communicate data between a wide variety of different systems. Data contained within an XML document is self-describing and contains tags that serve the same function as their HTML counterparts but differ in that there are no predefined tags in XML markup and are instead defined by the documents author.
+            </Info>
+            <Markup>
+                "../shared/img/u3p1xmlex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+               1-2 XML Markup Header One exception to the above statement that there are no predefined tags is the XML Prolog which is used to communicate to the platform receiving the data file which specific version of XML markup the document is formatted to and the specific encoding used to represent the characters contained within. Below the document from above is appended with the important Prolog.
+            </Info>
+            <Markup>
+                "../shared/img/u3p1xmlheadex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+                1-3 XML Nested Tags Much like HTML, XML supports tags being nested within the body of another tag. This feature can be used to represent a 1:Many relationship in the data as required. Below is an example of nested tags used to contain transactional data.
+            </Info>
+            <Markup>
+                "../shared/img/u3p1nestedex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>     
+    </Part>    
+    <Part>
+        <Lesson>
+            <Info>
+                2-1 XSL and XSLT: XSL (which stands for eXtensible Stylesheet Language) is a markup language that is designed to transform XML documents containing data into other formats, (such as HTML) that are more visually appealing and easier for people to read. Below is an example of a XSL stylesheet that we will use to style an XML document.
+            </Info>
+            <Markup>
+                "../shared/img/u3p3xslex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+               2-2 XML Example The above XLS document uses the selectors: xsl:template match="/" to reference the top level of the XML document, the selector:  xsl:template match="transactions" to refernce the root tag for the document (transactions), and the xsl:for-each select="transaction" tag to reference each  transaction tag nested within the root tag. Below is the XML document that the above XSL markup will apply a style to:
+            </Info>
+            <Markup>
+                "../shared/img/u3p1xmlheadex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+                2-3 Transformation Result: Using the selectors the XLS document extracts data from the XML document and creates the below document using HTML markup that is more visually appealing and easier to read.
+            </Info>
+            <Markup>
+                "../shared/img/u3p2resultex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>     
+    </Part>
+    <Part>
+        <Lesson>
+            <Info>
+                3-1 Introduction to XSD: XSD (which stands for XML Schema Definition) is a further markup tool that is used to define structure for an XML document and provide the expected syntax and entries for each tag contained within the XML document that it is linked to.
+            </Info>
+            <Markup>
+                "../shared/img/u3p3xsdex.png"
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>
+        <Lesson>
+            <Info>
+               3-2 Purpose of Schemas for XML: The primary purpose for using schemas with XML is to provide the ability to use data types which enable a document to define valid and invalid entries for each tag. The usage of schemas through linking an XML document to an XSD schema is an important tool for web development as it maintains standards for communication when a web server must communicate with external systems.
+            </Info>
+            <Markup>
+		"../shared/img/u3p3schemaex.png"
+
+            </Markup>
+            <Example>
+
+            </Example>
+        </Lesson>    
+    </Part>
+</Unit>

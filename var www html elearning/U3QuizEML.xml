@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Quiz>
+    <Question>
+        <Prompt>
+            Which of the following are valid tags in an XML document?
+        </Prompt>
+        <A>
+            name
+        </A>
+        <B>
+            type
+        </B>
+        <C>
+            price
+        </C>
+        <D>
+            there are no predefined tags in XML documents
+        </D>
+        <Answer>
+            d
+        </Answer>
+    </Question>
+    <Question>
+        <Prompt>
+            Which of the following is the proper syntax for an XML tag?"
+        </Prompt>
+        <A>
+            <![CDATA[&lt;tagname&gt;&lt;/tagname&gt;]]>
+        </A>
+        <B>
+            <![CDATA[&lt;tagname&gt;&lt;tagname&gt;]]>
+        </B>
+        <C>
+            <![CDATA[&lt;tagname&gt;&lt;//tagname&gt;]]>
+
+        </C>
+        <D>
+            All of the above       
+        </D>
+        <Answer>
+            a
+        </Answer>
+    </Question>
+    <Question>
+        <Prompt>
+            What does XML stand for?
+        </Prompt>
+        <A>
+            eXtended Markup Language
+        </A>
+        <B>
+            eXtra Markup Language
+        </B>
+        <C>
+            eXtensible Markup Language
+        </C>
+        <D>
+            None of the above
+        </D>
+        <Answer>
+            c
+        </Answer>
+    </Question>
+    <Question>
+        <Prompt>
+            Which of the following is NOT a valid selector for an XSL document?
+        </Prompt>
+        <A>
+            <![CDATA[&lt;xsl:for-each select="catalog/cd"&gt;]]>
+        </A>
+        <B>
+             <![CDATA[&lt;xsl:value-of select="title"&gt;]]>
+        </B>
+        <C>
+             <![CDATA[&lt;xsl:template match=""&gt;]]>
+        </C>
+        <D>
+             <![CDATA[&lt;xsl:type-of select="title"&gt;]]>
+        </D>
+        <Answer>
+            d
+        </Answer>
+    </Question>
+    <Question>
+        <Prompt>
+            Which of the following is NOT one of the purposes of applying a schema to an XML document?
+        </Prompt>
+        <A>
+            XML files can carry a description of its own format
+        </A>
+        <B>
+            Apply style to an XML document
+        </B>
+        <C>
+            independent groups of people can agree on a standard for interchanging data
+        </C>
+        <D>
+            you can verify data
+        </D>
+        <Answer>
+            b
+        </Answer>
+    </Question>
+    <Question>
+        <Prompt>
+            Which of the following is a valid XML Prolog?
+        </Prompt>
+        <A>
+            <![CDATA[&lt;?xml type="1.0" encoding="UTF-8"?&gt;]]>
+        </A>
+        <B>
+            <![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;]]>
+        </B>
+        <C>
+            <![CDATA[&lt;?xsd version="1.0" encoding="UTF-8"?&gt;]]>
+        </C>
+        <D>
+            <![CDATA[&lt;?xml version="1.0" encoding="ENG"?&gt;]]>
+        </D>
+        <Answer>
+            b
+        </Answer>
+    </Question>
+</Quiz>

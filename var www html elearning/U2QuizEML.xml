@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<Quiz>
+    <Question>
+        <Prompt>
+            Which of the following JavaScript variable declaration keywords prevents a variable from being reassigned?
+        </Prompt>
+        <A>
+            var
+        </A>
+        <B>
+            let
+        </B>
+        <C>
+            const
+        </C>
+        <D>
+            All of the above
+        </D>
+        <Answer>
+            c
+        </Answer>
+    </Question>
+    <Question>
+        <Prompt>
+            Which of the following JavaScript variable declaration keywords is scoped to the immediate enclosing block?
+        </Prompt>
+        <A>
+            const
+        </A>
+        <B>
+            let
+        </B>
+        <C>
+            var
+        </C>
+        <D>
+            All of the above
+        </D>
+        <Answer>
+            b
+        </Answer>
+    </Question>
+    <Question>
+        <Prompt>
+            Which of the following numerical types is used in JavaScript?
+        </Prompt>
+        <A>
+            Long
+        </A>
+        <B>
+            Double
+        </B>
+        <C>
+            Int
+        </C>
+        <D>
+            None of the above - all JavaScript numeric variables are stored as double precision floating point numbers
+        </D>
+        <Answer>
+            d
+        </Answer>
+    </Question>
+    <Question>
+        <Prompt>
+            Which of the following is NOT a valid function for referencing HTML elements?
+        </Prompt>
+        <A>
+            querySelectorAll()
+        </A>
+        <B>
+            getElementsByClassName()
+        </B>
+        <C>
+            getElementById()
+        </C>
+        <D>
+            getElementWithName()
+        </D>
+        <Answer>
+            d
+        </Answer>
+    </Question>
+    <Question>
+        <Prompt>
+            Which of the following types of loop will always execute at least one iteration?
+        </Prompt>
+        <A>
+            for loop
+        </A>
+        <B>
+            while loop
+        </B>
+        <C>
+            do/while loop
+        </C>
+        <D>
+            None of the above
+        </D>
+        <Answer>
+            c
+        </Answer>
+    </Question>
+    <Question>
+        <Prompt>
+            Which of the following attributes can be used to hide a selected HTML element?
+        </Prompt>
+        <A>
+            hidden
+        </A>
+        <B>
+            display
+        </B>
+        <C>
+            remove
+        </C>
+        <D>
+            hide
+        </D>
+        <Answer>
+            a
+        </Answer>
+    </Question>
+</Quiz>

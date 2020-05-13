@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" type="image/png" href="../shared/img/favicon.png"/>
+    <title>COMP470 eLearning</title>
+    <link rel="stylesheet" href="../shared/css/stylepart2.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="../shared/css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="../shared/css/mdb.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        {SCRIPT}
+    </script>
+</head>
+<body>
+<header id="headerpart2">
+    <div class="innertubeheader">
+            <div class="sidebar" style="width: 300px; float: left;">
+                <a class="websitetitle" href="login.php">COMP 470: eLearning Portal</a>
+            </div>
+    </div>
+</header>
+
+<main>
+    <div class="innertube">
+        <div class="title">
+            <h1>{TITLE}</h1>
+            <h3>{TEXT}</h3>
+            {INTRO}
+            {SUMMARY}
+            {BODY}
+        </div>
+    </div>
+</main>
+
+<nav id="nav">
+        {CONTROLS}
+    <div id="pagbox">
+        {PAG}
+    </div>
+</nav>
+
+<footer id="footer">
+    <div id="leftfooter">
+        Kenton Lynds
+    </div>
+    <div id="rightfooter" style="display: none;">
+        <a href="login.php" onclick="clearAuth()">Log Out</a>
+        <script>
+            function clearAuth(){
+                sessionStorage.clear();
+                $('#navtube').html('<div id="formContentLogin"> <div id="logintext"> Account Login: </div> <form id="loginform">'+
+                    '<input type="text" id="login" class="logininput" placeholder="Login"> <input type="password" id="password" class="logininput"'+
+                    'name="login" placeholder="Password"> <button type="button" class="navbutton" id="loginbutton" onclick="authAccount()">Log in</button>'+
+                    '</form> <div class="formFooter"> <div> <a class="underlineHover" id="forgot" href="#" onclick="forgotPasswordView()">Forgot Password?</a>'+
+                    '</div> <div> <a class="underlineHover" id="create" href="#" onclick="createAccountView()">Create New Account</a> <br> <br> </div> </div> </div>');
+                alert('Logout Successful');
+            }
+        </script>
+    </div>
+</footer>
+
+</body>
+
+</html>
